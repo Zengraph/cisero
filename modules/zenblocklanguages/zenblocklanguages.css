@@ -1,0 +1,35 @@
+#languages_block_top {
+	margin-top: 3px;
+}
+
+#countries_top a.nav-link.dropdown-toggle {
+	padding-left: 0.5rem;
+	padding-right: 0.3rem;
+}
+
+#countries_top a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#countries_top a.dropdown-item {
+	color: #fff;
+}
+
+@media (max-width:1399.98px) {
+	#languages_block_top{
+		display: none;
+	}
+}
+
+#footer a.dropdown-item {
+	color: var(--bs-body-color);
+}
+
+#footer button.dropdown-toggle > img, #footer a.dropdown-item > img {
+	margin-right: 5px;
+	-webkit-box-sizing:content-box;
+	box-sizing:content-box;
+	border: 1px solid #aaa;
+}

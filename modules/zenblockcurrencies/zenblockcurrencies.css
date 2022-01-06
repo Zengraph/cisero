@@ -1,0 +1,24 @@
+#currencies_block_top {
+	margin-top: 3px;
+}
+
+#currencies_block_top a.nav-link.dropdown-toggle {
+	padding-left: 0.5rem;
+	padding-right: 0.3rem;
+}
+
+#currencies_block_top a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#currencies_block_top a.dropdown-item {
+	color: #fff;
+}
+
+@media (max-width:1399.98px) {
+	#currencies_block_top {
+		display: none;
+	}
+}

@@ -1,0 +1,1 @@
+{include file="$tpl_dir./shopping-cart.tpl" advancedpayment = 1 cannotModify = 1}

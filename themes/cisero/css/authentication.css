@@ -1,0 +1,20 @@
+#account-creation_form {
+	max-width: 560px;
+}
+
+.lost_password a {
+	color: var(--bs-primary);
+}
+
+@media (max-width:767.98px) {
+	.authblock {
+		border-bottom: 1px solid #dee2e6;
+		margin-bottom: 3rem;
+	}
+}
+
+@media (min-width:768px) {
+	.authblock {
+		border-right: 1px solid #dee2e6;
+	}
+}

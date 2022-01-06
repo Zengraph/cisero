@@ -1,0 +1,9 @@
+#index #fullpageslide {
+	background: url('../../img/honey_melt_white.png') center top repeat-x;
+	height: 145px;
+	position: relative;
+	margin-bottom: -60px;
+}
+#index #columns, #index #columns main, #index #columns main row {
+	background: inherit;
+}

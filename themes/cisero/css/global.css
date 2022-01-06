@@ -1,0 +1,393 @@
+/* Custom Code for Cisero Theme 
+/* Based on Bootstrap 5.1 
+/* 27.09.2021 by @zengraph */
+
+body {
+	background-color: var(--bs-gray-200);
+}
+main {
+	background-color: var(--bs-white);
+}
+a {
+	color: var(--bs-gray-900);
+	text-decoration: none;
+}
+a:hover: {
+	color: var(--bs-gray-600);
+	text-decoration: none;
+}
+.lost_password a:hover {
+	text-decoration: underline;
+}
+.page-subheading {
+	font-weight: 600;
+}
+.text-smaller {
+	font-size: smaller;
+}
+#header-blocks {
+	position: relative;
+}
+#header-blocks .toprow {
+	padding: 6px 0;
+}
+#shop-logo a img {
+	max-width: 150px;
+	height: auto;
+	width: 100%;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: var(--bs-white);
+	font-weight: 600;
+}
+#top_column {
+	position: relative;
+}
+#footer .col {
+	min-width: 120px;
+}
+.page-heading {
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+.product-name {
+	font-size: 1.3rem;
+	margin-bottom: 0.5rem;
+}
+.cart_ref,
+.cart_att {
+	font-weight: lighter;
+	font-size: 0.8rem;
+}
+.unvisible {
+	display: none;
+}
+.heading-counter {
+	font-size: 0.4em;
+	margin-top: 10px;
+}
+#order_step,
+#order_step .nav-link {
+	color: var(--bs-secondary);
+	background: #eee !important;
+	border-radius: 0 !important;
+}
+#order_step .nav-link.completed {
+	color: var(--bs-dark);
+	background: #ccc !important;
+	height: 100%;
+}
+#order_step .nav-link.active {
+	color: var(--bs-white);
+	background: #292929 !important;
+	height: 100%;
+}
+.address.card-body p {
+	margin-bottom: 2px;
+}
+ul.price {
+	list-style-type: none;
+	padding: 0;
+}
+
+/* SearchBox */
+
+#search_query_block {
+	max-width: 340px;
+	background-color: #f5f5f5;
+	border-right: 0;
+}
+#search_query_block::placeholder {
+	color: var(--bs-gray-600);
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1rem;
+}
+#search_block_top .input-group-text {
+	background-color: #f5f5f5;
+	border-radius: 0;
+}
+
+/* Footer */
+
+#footer,
+#footer a {
+	color: var(--bs-white);
+	text-decoration: none;
+}
+#footer .title_block {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: -0.5px;
+	font-size: 14px;
+}
+
+/* Breadcrumbs */
+
+.breadcrumbs {
+	display: block;
+	background: #f7f7f7;
+	box-shadow: inset 0 6px 8px 1px rgba(0, 0, 0, 0.16);
+	padding: 10px 16px;
+}
+.breadcrumbs .items,
+.breadcrumbs .items a {
+	font-size: 13px;
+	color: #a3a3a3;
+	margin: 0;
+	padding: 0;
+	list-style: none none;
+}
+.breadcrumbs .items > li {
+	display: inline-block;
+	vertical-align: top;
+}
+.breadcrumbs .item a {
+	display: inline-block;
+	text-decoration: none;
+}
+.breadcrumbs .item:not(:last-child) a:hover {
+	text-decoration: underline;
+}
+.breadcrumbs .item:not(:last-child)::after {
+	font-family: "Font Awesome 5 Free";
+	font-size: 14px;
+	line-height: 22px;
+	content: "\f105";
+	margin: 0 5px 0 6px;
+	vertical-align: top;
+	display: inline-block;
+	font-weight: 900;
+	overflow: hidden;
+	text-align: center;
+}
+.breadcrumbs .item:not(:last-child) a:visited {
+	color: #333;
+}
+.breadcrumbs strong {
+	font-weight: 400;
+}
+#my-account-menu a:hover {
+	background-color: #666;
+}
+#add_address .input-group-text {
+	inline-size: 143px;
+	overflow-wrap: break-word;
+	white-space: normal;
+	font-size: 0.85rem;
+	text-align: left;
+}
+td.delivery_option_radio {
+	width: 60px !important;
+}
+td.delivery_option_logo {
+	width: 100px !important;
+}
+td.delivery_option_price {
+	min-width: 160px;
+	text-align: right;
+	padding-right: 20px;
+}
+.order_carrier_content .delivery_options label {
+	display: block;
+}
+.order_carrier_content .table_block .resume {
+	border: 1px solid;
+}
+.order_carrier_content .order_carrier_logo {
+	width: 60px;
+	height: auto;
+}
+#carrier_area #cgv {
+	margin-right: 15px;
+}
+.payment_module {
+	border: 1px solid;
+}
+
+.table#cart_summary  > :not(:first-child) {
+	border-top: 0;
+}
+
+#cart_summary .cart_discount {
+	text-align: center;
+	background-color: #eee;
+}
+
+#cart_summary #total_discount {
+	text-align: right;
+}
+
+/* Account Create OPC */
+#OpcAccountCreate .page-heading, #opc_invoice_address .page-subheading {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.8rem;
+	margin-top: 1rem;
+	margin-bottom: 0.45rem;
+}
+
+/* Errors Fancybox */
+.fancybox-inner .fancybox-error {
+	padding: 30px 15px;
+	white-space: normal;
+}
+
+/* Responsives Rules */
+
+@media (max-width: 767.98px) {
+	.table_block table,
+	.table_block thead,
+	.table_block tbody,
+	.table_block th,
+	.table_block td,
+	.table_block tr {
+		display: block;
+		border-bottom: 0;
+	}
+	.table_block tfoot {
+		display: inline;
+	}
+	.table_block .cart_item {
+		position: relative;
+	}
+	.table_block .cart_avail {
+		position: absolute;
+		top: 10px;
+	}
+	.table_block .unvisible,
+	.table_block thead tr,
+	.table_block #cart_summary .cart_total_price #cart_voucher {
+		display: none;
+	}
+	.table_block > .table-bordered >:not(caption) > * > * {
+		border-width: 0;
+	}
+	.table_block .cart_total_price > td#total_product,
+	.table_block .cart_total_price > td#total_price_container,
+	.table_block .cart_total_delivery > td#total_shipping {
+		border-top: 0;
+	}
+	.table_block #cart_summary > tbody > tr.cart_item > td.cart_quantity {
+		width: 50%;
+		float: left;
+		border-left: 0;
+		border-right: 0;
+		padding: 2px 0 0 0;
+	}
+	.table_block #cart_summary > tbody > tr.cart_item > td.cart_quantity > .cart_quantity_input {
+		width: 60px;
+	}
+	.table_block #cart_summary > tbody > tr.cart_item > td.cart_quantity > .cart_quantity_button {
+		position: relative;
+		left: 70px;
+		bottom: 42px;
+	}
+	.table_block #cart_summary > tbody > tr.cart_item > td.cart_quantity::before {
+		content: "x";
+		float: left;
+		left: 13px;
+		line-height: 34px;
+		position: relative;
+	}
+	.table_block .cart_quantity_button a.btn {
+		border: 0;
+		background-color: #eee;
+		margin-top: 1px;
+	}
+	.table_block .cart_quantity_button a.button-minus {
+		margin-right: 10px;
+	}
+	.table_block #cart_summary > tbody > tr.cart_item > td.cart_unit {
+		float: left;
+		border-right: 0;
+	}
+	.table_block #cart_summary > tbody > tr.cart_item > td.cart_delete {
+		position: relative;
+		bottom: 100px;
+		border: 0;
+	}
+	.table_block #cart_summary > tbody > tr.cart_item:last-of-type {
+		border-bottom: 1px solid #ddd;
+	}
+	.table_block #cart_summary .cart_total > span.price {
+		position: relative;
+		top: -39px;
+	}
+	.order_carrier_content .table_block .delivery_option_radio,
+	.table_block .delivery_option_logo {
+		display: inline-block;
+	}
+	.order_carrier_content td.delivery_option_price {
+		border-top: 1px solid #ccc;
+		background-color: #efefef;
+	}
+	#cart_summary .text-end {
+		text-align: center !important;
+		display: inline-block;
+		width: calc(50% - 34px);
+		margin: 15px;
+	}
+	#cart_summary .cart_total_price {
+		text-align: center;
+	}
+	#cart_summary .cart_discount {
+		display: none;
+	}
+}
+@media (max-width: 991.98px) {
+	#search_block_top {
+		margin-bottom: 8px;
+		margin-top: 2px;
+	}		
+	#search_query_block {
+		max-width: 100%;
+		background-color: #fff;
+		border-right: 0;
+		border-top: 0;
+		border-left: 0;
+	}	
+	#search_query_block::placeholder {
+		color: #cdcdcd;
+		text-transform: none;
+		font-weight: 300;
+		font-size: 0.8rem;
+	}
+	#search_block_top .input-group-text {
+		background-color: #fff;
+		border-radius: 0;
+		border-top: 0;
+		border-right: 0;
+		border-color: #cdcdcd;
+		color: #cdcdcd;
+	}
+	#headertopmenu {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	#left_column {
+		display: none;
+	}
+}
+@media (max-width: 451.98px) {
+	.table_block #cart_summary .cart_total > span.price {
+		position: relative;
+		top: 5px;
+		height: 34px;
+		display: block;
+		right: 0;
+	}
+}
+@media (min-width: 992px) {
+	.txt-lg {
+		text-align: right;
+	}
+	#search_block_top {
+		margin-left: 76px;
+	}
+	#new_account_form .my-cust {
+		margin-bottom: 2.45rem;
+	}
+}

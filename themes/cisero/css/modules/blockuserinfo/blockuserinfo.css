@@ -1,0 +1,52 @@
+#header_user a.nav-link {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#header_user .dropdown-toggle::after {
+  display: none;
+}
+#header_user i.fa-user-alt {
+  font-size: 24px;
+  margin-left: 12px;
+}
+#header_user .card-body i.fa-user-alt,
+#header_user .card-body i.fa-sign-out-alt {
+  font-size: 18px;
+  margin-left: 8px;
+}
+#header_user .card-body .btn-dark {
+  color: #fff;
+}
+.deflink, .deflink:hover {
+  color: var(--bs-primary);
+}
+#header_user .deflink i.fa-user-cog {
+  position: absolute;
+  color: var(--bs-gray-400);
+  font-size: 40px;
+  right: 40px;
+  top: 20px;
+}
+
+#header_user .dropdown-menu {
+	width: 14rem;
+}
+
+#header_user .dropdown-menu.droplg {
+	width: 16rem;
+}
+
+@media (max-width:991.98px) {
+	#header_user a.nav-link span {
+		display:none;
+	}
+}
+
+@media (max-width:576px) {
+	#header_user .dropdown-menu, #header_user .dropdown-menu.droplg {
+		width: 98%;
+		margin-left: -1% !important;
+		margin-top: 10px !important;
+	}
+}

@@ -1,0 +1,59 @@
+h1.prodtitle {
+	font-size: 3rem;
+	font-weight: bold;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.our_price_display {
+	font-size: 1.5rem;
+}
+
+.attribute_list {
+	width: 230px;
+}
+
+#quantity_wanted_p {
+	width: 148px;
+}
+
+#quantity_wanted_p a {
+	color:#212529;
+}
+
+#quantity_wanted_p button:hover a, #quantity_wanted_p a:hover {
+	color:#fff;
+}
+
+#quantity_wanted_p button.btn-outline-secondary {
+	color: #212529;
+	border-color: #ced4da;
+}
+
+#add_to_cart .btn.btn-dark:hover {
+	background: #eee;
+	color: #212529;
+}
+
+#product-features {
+	max-width: 460px;
+}
+
+#product-features .table-bordered  td + td { 
+	text-align:center;
+}
+
+#color_to_pick_list {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	column-gap: 10px;
+}
+
+#color_to_pick_list li a.color_pick {
+	display: block;
+	height: 26px;
+	width: 26px;
+	cursor: pointer;
+	border: 1px solid #eee;
+}

@@ -1,0 +1,11 @@
+ul.card-body.address {
+  list-style-type: none;
+}
+
+#add_address .input-group-text {
+	inline-size: 140px;
+	overflow-wrap: break-word;
+	white-space: normal;
+	font-size: 0.85rem;
+	text-align: left;
+}

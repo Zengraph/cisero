@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme version="1.0" name="Cisero" directory="cisero">
+  <author name="Zengraph" email="nico@zengraph.com" url="https://zengraph.com"/>
+  <descriptions>
+    <description iso="en"/>
+    <description iso="fr"/>
+    <description iso="es"/>
+    <description iso="de"/>
+  </descriptions>
+  <variations>
+    <variation name="Cisero" directory="cisero" responsive="1" default_left_column="0" default_right_column="0" product_per_page="48" from="1.3.0"/>
+  </variations>
+  <docs>
+    <doc name="documentation" path="doc/"/>
+  </docs>
+  <metas>
+    <meta meta_page="best-sales" left="0" right="0"/>
+    <meta meta_page="contact" left="0" right="0"/>
+    <meta meta_page="index" left="0" right="0"/>
+    <meta meta_page="manufacturer" left="0" right="0"/>
+    <meta meta_page="new-products" left="0" right="0"/>
+    <meta meta_page="password" left="0" right="0"/>
+    <meta meta_page="prices-drop" left="0" right="0"/>
+    <meta meta_page="sitemap" left="0" right="0"/>
+    <meta meta_page="supplier" left="0" right="0"/>
+    <meta meta_page="address" left="0" right="0"/>
+    <meta meta_page="addresses" left="0" right="0"/>
+    <meta meta_page="authentication" left="0" right="0"/>
+    <meta meta_page="cart" left="0" right="0"/>
+    <meta meta_page="discount" left="0" right="0"/>
+    <meta meta_page="history" left="0" right="0"/>
+    <meta meta_page="identity" left="0" right="0"/>
+    <meta meta_page="my-account" left="0" right="0"/>
+    <meta meta_page="order-follow" left="0" right="0"/>
+    <meta meta_page="order-slip" left="0" right="0"/>
+    <meta meta_page="order" left="0" right="0"/>
+    <meta meta_page="search" left="0" right="0"/>
+    <meta meta_page="stores" left="0" right="0"/>
+    <meta meta_page="order-opc" left="0" right="0"/>
+    <meta meta_page="guest-tracking" left="0" right="0"/>
+    <meta meta_page="order-confirmation" left="0" right="0"/>
+    <meta meta_page="products-comparison" left="0" right="0"/>
+    <meta meta_page="attachment" left="0" right="0"/>
+    <meta meta_page="favicon" left="0" right="0"/>
+    <meta meta_page="getfile" left="0" right="0"/>
+    <meta meta_page="order-detail" left="0" right="0"/>
+    <meta meta_page="order-return" left="0" right="0"/>
+    <meta meta_page="pagenotfound" left="0" right="0"/>
+    <meta meta_page="pdf-invoice" left="0" right="0"/>
+    <meta meta_page="pdf-order-return" left="0" right="0"/>
+    <meta meta_page="pdf-order-slip" left="0" right="0"/>
+    <meta meta_page="category" left="0" right="0"/>
+    <meta meta_page="changecurrency" left="0" right="0"/>
+    <meta meta_page="cms" left="0" right="0"/>
+    <meta meta_page="product" left="0" right="0"/>
+    <meta meta_page="statistics" left="0" right="0"/>
+    <meta meta_page="module-blocknewsletter-verification" left="0" right="0"/>
+    <meta meta_page="module-tb_framework-framework" left="0" right="0"/>
+    <meta meta_page="module-bankwire-payment" left="0" right="0"/>
+    <meta meta_page="module-bankwire-validation" left="0" right="0"/>
+    <meta meta_page="module-beesblog-category" left="0" right="0"/>
+    <meta meta_page="module-beesblog-post" left="0" right="0"/>
+  </metas>
+  <modules>
+    <module action="install" name="thememaster"/>
+    <module action="install" name="zentopmenu"/>
+    <module action="install" name="zenblocklanguages"/>
+    <module action="install" name="zenblockcurrencies"/>
+    <module action="install" name="zenslider"/>
+    <module action="enable" name="blockcart"/>
+    <module action="enable" name="blockcategories"/>
+    <module action="enable" name="blockcms"/>
+    <module action="enable" name="blockcontactinfos"/>
+    <module action="enable" name="blockmyaccountfooter"/>
+    <module action="enable" name="blocknewsletter"/>
+    <module action="enable" name="blocksearch"/>
+    <module action="enable" name="blockuserinfo"/>
+    <module action="enable" name="tb_framework"/>
+    <module action="enable" name="thememaster"/>
+    <module action="enable" name="zenblockcurrencies"/>
+    <module action="enable" name="zenblocklanguages"/>
+    <module action="enable" name="zenslider"/>
+    <module action="enable" name="zentopmenu"/>
+    <module action="disable" name="advancedeucompliance"/>
+    <module action="disable" name="beesblog"/>
+    <module action="disable" name="beesblogcategories"/>
+    <module action="disable" name="beesblogpopularposts"/>
+    <module action="disable" name="beesblogrecentposts"/>
+    <module action="disable" name="beesblogrelatedproducts"/>
+    <module action="disable" name="blockbanner"/>
+    <module action="disable" name="blockbestsellers"/>
+    <module action="disable" name="blockcmsinfo"/>
+    <module action="disable" name="blockcontact"/>
+    <module action="disable" name="blockcurrencies"/>
+    <module action="disable" name="blockcustomerprivacy"/>
+    <module action="disable" name="blockfacebook"/>
+    <module action="disable" name="blocklanguages"/>
+    <module action="disable" name="blocklayered"/>
+    <module action="disable" name="blocklink"/>
+    <module action="disable" name="blockmanufacturer"/>
+    <module action="disable" name="blockmyaccount"/>
+    <module action="disable" name="blocknewproducts"/>
+    <module action="disable" name="blockpaymentlogo"/>
+    <module action="disable" name="blockpermanentlinks"/>
+    <module action="disable" name="blockreinsurance"/>
+    <module action="disable" name="blockrss"/>
+    <module action="disable" name="blocksharefb"/>
+    <module action="disable" name="blocksocial"/>
+    <module action="disable" name="blockspecials"/>
+    <module action="disable" name="blockstore"/>
+    <module action="disable" name="blocksupplier"/>
+    <module action="disable" name="blocktags"/>
+    <module action="disable" name="blocktopmenu"/>
+    <module action="disable" name="blockviewed"/>
+    <module action="disable" name="blockwishlist"/>
+    <module action="disable" name="cookiebot"/>
+    <module action="disable" name="crossselling"/>
+    <module action="disable" name="ctconfiguration"/>
+    <module action="disable" name="dateofdelivery"/>
+    <module action="disable" name="eucookieconsent"/>
+    <module action="disable" name="homefeatured"/>
+    <module action="disable" name="homeslider"/>
+    <module action="disable" name="loyalty"/>
+    <module action="disable" name="mailalerts"/>
+    <module action="disable" name="maxmindgeoip2"/>
+    <module action="disable" name="nocaptcharecaptcha"/>
+    <module action="disable" name="productcomments"/>
+    <module action="disable" name="productpaymentlogos"/>
+    <module action="disable" name="productscategory"/>
+    <module action="disable" name="producttooltip"/>
+    <module action="disable" name="referralprogram"/>
+    <module action="disable" name="sendtoafriend"/>
+    <module action="disable" name="socialsharing"/>
+    <module action="disable" name="tawkto"/>
+    <module action="disable" name="tbcurrencyformatter"/>
+    <module action="disable" name="tbhtmlblock"/>
+    <module action="disable" name="themeconfigurator"/>
+    <module action="disable" name="thememanager"/>
+    <module action="disable" name="watermark"/>
+    <hooks>
+      <hook module="blockcart" hook="Header" position="2"/>
+      <hook module="blockcart" hook="displayTop" position="3"/>
+      <hook module="blockcategories" hook="Header" position="7"/>
+      <hook module="blockcategories" hook="displayFooter" position="7"/>
+      <hook module="blockcategories" hook="displayLeftColumn" position="1"/>
+      <hook module="blockcms" hook="Header" position="16"/>
+      <hook module="blockcms" hook="displayFooter" position="8"/>
+      <hook module="blockcms" hook="displayLeftColumn" position="2"/>
+      <hook module="blockcms" hook="displayRightColumn" position="1"/>
+      <hook module="blockcontactinfos" hook="Header" position="10"/>
+      <hook module="blockcontactinfos" hook="displayFooter" position="3"/>
+      <hook module="blockmyaccountfooter" hook="Header" position="5"/>
+      <hook module="blockmyaccountfooter" hook="displayFooter" position="9"/>
+      <hook module="blocknewsletter" hook="Header" position="8"/>
+      <hook module="blocknewsletter" hook="displayFooter" position="6"/>
+      <hook module="blocksearch" hook="Header" position="3"/>
+      <hook module="blocksearch" hook="displayMobileTopSiteMap" position="1"/>
+      <hook module="blocksearch" hook="displaySearch" position="1"/>
+      <hook module="blockuserinfo" hook="Header" position="11"/>
+      <hook module="blockuserinfo" hook="displayTop" position="1"/>
+      <hook module="tb_framework" hook="Header" position="14"/>
+      <hook module="thememaster" hook="Header" position="1"/>
+      <hook module="thememaster" hook="displayBanner" position="1"/>
+      <hook module="thememaster" hook="displayHome" position="1"/>
+      <hook module="thememaster" hook="displayNav" position="2"/>
+      <hook module="zenblockcurrencies" hook="Header" position="37"/>
+      <hook module="zenblockcurrencies" hook="displayFooter" position="11"/>
+      <hook module="zenblocklanguages" hook="Header" position="36"/>
+      <hook module="zenblocklanguages" hook="displayFooter" position="10"/>
+      <hook module="zenblocklanguages" hook="displayTop" position="5"/>
+      <hook module="zenslider" hook="Header" position="38"/>
+      <hook module="zenslider" hook="displayTopColumn" position="1"/>
+      <hook module="zentopmenu" hook="Header" position="9"/>
+      <hook module="zentopmenu" hook="displayNav" position="1"/>
+    </hooks>
+  </modules>
+    <images>
+    <image name="cart" width="80" height="80"
+           products="true" categories="false" manufacturers="false"
+           suppliers="false" scenes="false" stores="false"/>
+    <image name="small" width="98" height="98"
+           products="true" categories="false" manufacturers="true"
+           suppliers="true" scenes="false" stores="false"/>
+    <image name="medium" width="125" height="125"
+           products="true" categories="true" manufacturers="true"
+           suppliers="true" scenes="false" stores="true"/>
+    <image name="home" width="250" height="250"
+           products="true" categories="false" manufacturers="false"
+           suppliers="false" scenes="false" stores="false"/>
+    <image name="large" width="458" height="458"
+           products="true" categories="false" manufacturers="true"
+           suppliers="true" scenes="false" stores="false"/>
+    <image name="thickbox" width="800" height="800"
+           products="true" categories="false" manufacturers="false"
+           suppliers="false" scenes="false" stores="false"/>
+    <image name="category" width="870" height="217"
+           products="false" categories="true" manufacturers="false"
+           suppliers="false" scenes="false" stores="false"/>
+  </images>
+  <lazy_load>1</lazy_load>
+  <high_dpi>1</high_dpi>
+  <webp>1</webp>
+</theme>

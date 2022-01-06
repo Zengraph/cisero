@@ -1,0 +1,19 @@
+body { background-color:#ffffff; } 
+.navbar.navbar-default { background-color:#f4f4f4; } 
+#header, #header-blocks { background-color:#ffffff; }
+.top_column_wrapper, #columns, main { background-color:#ffffff; }
+#footer { background-color:#121212; }
+#footer, #copyright-footer { color:#c8c8c8; }
+#footer .footer-title, #footer .title_block { color:#ffffff; }
+#footer a { color:#c8c8c8; }
+#footer a:hover { color:#ff6f61; }
+.ajax_block_product	{ background-color:#ffffff; }
+#slogan { background: #ffffff} 
+#slogan p { color: #333333; font-size: 13px; padding: 1px 15px 3px; margin-bottom: 0;text-align: left;font-weight: 100;}
+#undermenu {background: #000000; height:30px;width:100%;height:30px;margin-left:auto;margin-right:auto; border:0;padding:1px;z-index:100;overflow:hidden;white-space:nowrap;box-sizing:border-box;}#undermenu p {color: #ffffff;margin: 0;text-transform: uppercase;font-size:15px;font-weight: 300;}
+#undermenu .hmove {display: flex; position: relative; top: 0; right: 0;}
+#undermenu .hslide {margin: 0; padding: 2px; width: 100%; flex-shrink: 0; box-sizing: border-box;}
+@keyframes mySlides {0% {right:0} 30% {right:0} 33% {right:100%} 63% {right:100%} 66% {right:200%} 97% {right:200%} 100% {right:0}}
+.hmove {animation: mySlides linear 14s infinite;}
+.hmove:hover {animation-play-state: paused;}
+#hometext {text-align: center; padding: 15px; margin: 30px 0 20px; font-size: 150%;}
